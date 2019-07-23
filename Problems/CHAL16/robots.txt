@@ -1,0 +1,6 @@
+# robots.txt for http://172.105.214.27:10516/
+
+User-agent: *
+Allow: /index.html
+Disallow: /secret/flaggggggy.html
+Sitemap: http://172.105.214.27:10516/sitemaps/sitemap.xml

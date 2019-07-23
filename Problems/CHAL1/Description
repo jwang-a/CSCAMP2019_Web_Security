@@ -1,0 +1,17 @@
+Title : 
+	M30W Factory
+
+Points :
+	300
+
+Tags : 
+	Cookie, Web, Database Indexing
+
+Description :
+	M30W has forgotten his password to MFAS (M30W Factory Authentication System)
+	Can you help him login and retrieve the flag?
+
+	172.105.214.27:10501
+
+Flag :
+	flag{YummY_Yummy_C00ki3s_<3} 

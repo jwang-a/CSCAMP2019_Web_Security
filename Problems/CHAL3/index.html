@@ -1,0 +1,51 @@
+<html>
+<head>
+<title>ConsoltAnT</title>
+<link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css'>
+<script src='https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+<script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js'></script>
+<link rel='stylesheet' type='text/css' href='./main.css'>
+<script>
+$(document).ready(function (){
+	$('button').click(function(){
+		if(false){
+			$.ajax({
+				url: 'flag.php',
+				success: function(data) {
+					$('.output').html(data);
+				}
+			});
+		}
+		else{
+			$('.output').html('Who are you?');
+		}
+	});
+});
+</script>
+</head>
+<body>
+<div class='container' style='padding: 10px;'>
+<h2>ConsoltAnT</h2>
+<br>
+<p>And who are you again?</p>
+<br>
+
+<form class='form-inline'>
+	<div class='form-group'>
+		<input class='form-control' type='text' name='name' placeholder='name'>
+	</div>
+	<br>
+	<br>
+	<div class='form-group'>
+		<input class='form-control' type='text' name='pass' placeholder='password'>
+	</div>
+	<br>
+	<br>
+	<button type='submit' class='btn btn-primary'>Login</button>
+</form>
+<br>
+<br>
+<p class='output'></p>
+</div>
+</body>
+</html>

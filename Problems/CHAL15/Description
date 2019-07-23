@@ -1,0 +1,27 @@
+Title : 
+	Talking Cats
+
+Points :
+	150
+
+Tags : 
+	Stego
+
+Description :
+	First cat writing
+	Now cats talking
+	I wonder what's next?
+
+Provided File :
+	talking_cats.mp3
+
+Hint :
+	all letters are uppercase in this challenge
+	the flag is in format FLAG{}
+
+Flag : 
+	FLAG{IF_C4T5_L3ARN3D_T0_TA1K_<3}
+
+
+
+Credits to Arvin for creating this annoying challenge

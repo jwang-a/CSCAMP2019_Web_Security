@@ -1,0 +1,1 @@
+Since key len=6 and the first five characters of flag is known, just brute force the last to get key and flag

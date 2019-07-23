@@ -1,0 +1,18 @@
+Part1
+	unzip a couple of times to get flag
+
+Part2
+	one of the .jpg actually has two zip files appended at the end
+	use foremost/binwalk to extract the second zip
+	keep unziping to get flag
+
+Part3
+	text fused into image, some stego tools may help reveal plaintext
+	a simple proof-of-work script is shown below
+
+		from PIL import Image
+		import numpy as np
+		img = np.array(Image.open('cat8.jpg'))
+		img[img<45]=255
+		img = Image.fromarray(img)
+		img.save('img.png')

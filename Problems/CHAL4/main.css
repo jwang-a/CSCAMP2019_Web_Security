@@ -1,0 +1,38 @@
+body{
+	text-align: center;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-color: #000000;
+	color: #6060a0;
+	min-height: 100%;
+}
+
+code{
+	position: absolute;
+	margin-left: -10%; 
+	text-align: left;
+	background-color: #000000;
+}
+
+span{
+	border-style: none;
+	background-color: #000000;
+}
+
+p{
+	margin-top: 250;
+}
+
+html{
+	height: 100%;
+}
+
+.mainContent{
+	padding: 10px;
+}
+
+@import url('http://twitter.github.com/bootstrap/assets/css/bootstrap.css');
+
+table,thead,tr,tbody,th,td{
+	text-align: center;
+}

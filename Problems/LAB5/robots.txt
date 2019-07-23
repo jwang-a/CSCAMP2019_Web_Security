@@ -1,0 +1,5 @@
+# robots.txt for http://172.16.215.101:10105/
+
+User-agent: *
+Allow: /index.html
+Disallow: /flag{R0B0T5_AR3_CR33PY_0.0}

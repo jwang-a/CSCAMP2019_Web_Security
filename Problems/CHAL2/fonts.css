@@ -1,0 +1,16 @@
+@font-face {
+	font-family: 'Courier1';
+	src: url('./fonts/C1.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'Courier2';
+	src: url('./fonts/C2.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'Courier3';
+	src: url('./fonts/C3.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'Courier4';
+	src: url('./fonts/C4.ttf') format('truetype');
+}

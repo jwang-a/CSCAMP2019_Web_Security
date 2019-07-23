@@ -1,0 +1,23 @@
+Title : 
+	Poker Games
+
+Points :
+	250
+
+Tags : 
+	Crypto
+
+Description :
+	I love pokers
+	But no one wants to play with me
+	So I often ended up playing solitaire ...
+
+Provided File :
+	poker
+
+Hint :
+	all letters are uppercase in this challenge
+	the flag is in format FLAG{}
+
+Flag : 
+	FLAG{FINALLY_A_WAY_TO_CHEAT_IN_POKER_GAMES}

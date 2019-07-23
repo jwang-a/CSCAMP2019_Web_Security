@@ -1,0 +1,22 @@
+Title : 
+	XOR
+
+Points :
+	300
+
+Tags : 
+	Crypto
+
+Description :
+	Have you heard of exclusive or?
+
+Provided File :
+	xor
+
+Hint :
+	what is base64?
+	key length=6
+	flag is in format flag{...}
+
+Flag : 
+	flag{I_thought_my_key_was_safe><}

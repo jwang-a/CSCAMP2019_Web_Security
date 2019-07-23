@@ -1,0 +1,17 @@
+Title : 
+	R. Daneel Olivaw
+
+Points :
+	50
+
+Tags : 
+	Web, Information Leak, Robots
+
+Description :
+	My robot is not as smart as Daneel
+	But it sure can tell you the flag
+
+	172.105.214.27:10105
+
+Flag :
+	flag{R0B0T5_AR3_CR33PY_0.0}

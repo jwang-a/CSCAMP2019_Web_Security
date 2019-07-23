@@ -1,0 +1,21 @@
+Title : 
+	Sleep.Overcharge.Stare
+
+Points :
+	100
+
+Tags : 
+	Crypto
+
+Description :
+	Follow Zelda on twitter >.0
+
+	172.105.214.27:10513
+
+Hint :
+	all letters are uppercase in this challenge
+	the flag is in format FLAG{}
+	words are seperated with _
+
+Flag : 
+	FLAG{D0_N0T_0V3RCH4RG3_Y0UR_Z3LD4_P13AS3}

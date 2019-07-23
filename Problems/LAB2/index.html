@@ -1,0 +1,32 @@
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+$(document).ready(function (){
+	$('button').click(function(){
+		if($('.name').val()==='M30W' && $('.pass').val()==='SPIORAD'){
+			$.ajax({
+				url: 'flag.php',
+				success: function(data) {
+					$('.output').html(data);
+				}
+			});
+		}
+		else{
+			$('.output').html('Who are you?');
+		}
+	});
+});
+</script>
+</head>
+<body>
+<div>name : 
+	<input class='name' type='text'>
+</div>
+<div>password : 
+	<input class='pass' type='text'>
+</div>
+<button>login</button>
+<p class='output'>hello</p>
+</body>
+</html>
